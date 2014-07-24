@@ -94,7 +94,7 @@
         [_cancelButton addTarget:self
                           action:@selector(tapAction:)
                 forControlEvents:UIControlEventTouchUpInside];
-        [_cancelButton setTitle:@"取    消" forState:UIControlStateNormal];
+        [_cancelButton setTitle:NSLocalizedString(@"close", @"close button") forState:UIControlStateNormal];
         [self addSubview:_cancelButton];
     }
     return self;
